@@ -1,0 +1,49 @@
+.HomeHero {
+    display: flex;
+    align-items: center;
+    margin-right: -24px;
+    border: 4px #bbb solid;
+    border-radius: 16px;
+    padding: 40px;
+    max-width: 900px;
+
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+}
+
+.Home-shot {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px #ccc solid;
+    margin: 20px;
+    min-width: 250px;
+  }
+
+.HomeHero-text::after {
+    content: "";
+    width: 15px;
+    height: 24px;
+    background: #eee;
+    display: inline-block;
+    animation: blinking-cursor .5s steps(2) infinite;
+    vertical-align: bottom;
+    margin-bottom: 5px;
+}
+
+@keyframes blinking-cursor {
+    0% { opacity: 0; }
+}
+
+.HomeCode {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }

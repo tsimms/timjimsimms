@@ -1,0 +1,16 @@
+.Projects-content {
+    color: black;
+    width: 70%;
+    min-width: 400px;
+    margin: auto;
+    font-size: calc(8px + 2vmin);
+    text-shadow: 1px 1px 2px white;
+}
+
+#resume-pages {
+    width: 100%;
+}
+
+iframe {
+    width: 49%;
+}
