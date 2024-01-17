@@ -15,7 +15,7 @@ export class HomeHero extends React.Component {
         Really hoping I can help you in some capacity, either now or in the future. I'm available for coaching, speaking engagements, mentoring, or building some software!
         If you've got ideas for how we might collaborate, let's chat!`;
   timeout = null;
-  maxTime = 250;
+  maxTime = 150;
 
   updateTyping = () => {
     const waitTime = Math.round(Math.random() * this.maxTime);
