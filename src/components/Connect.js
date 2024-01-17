@@ -16,7 +16,7 @@ const Connect = () => {
                         <img src={logo} alt="LinkedIn" />
                     </a>
                 </div>
-               <a class="libutton" href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=timjimsimms" target="_blank" rel="noreferrer">Follow on LinkedIn</a>
+               <a className="libutton" href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=timjimsimms" target="_blank" rel="noreferrer">Follow on LinkedIn</a>
             </div>
         </div>
     );
