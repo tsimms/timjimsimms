@@ -12,8 +12,8 @@ export class HomeHero extends React.Component {
   }
   text = `
         Hey, I'm Tim; glad to have you here checking me out!
-        Really hoping I can help you in some capacity, either now or in the future. I'm open for coaching, speaking engagements, mentoring, or building some software!
-	If you've got ideas for how we might collaborate, let's chat!`;
+        Really hoping I can help you in some capacity, either now or in the future. I'm available for coaching, speaking engagements, mentoring, or building some software!
+        If you've got ideas for how we might collaborate, let's chat!`;
   timeout = null;
   maxTime = 250;
 
