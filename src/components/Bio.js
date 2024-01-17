@@ -6,7 +6,7 @@ const Bio = () => {
         <div className="Bio-content">
             <h1>Who Is Tim Simms?</h1>
             <p>
-            Tim Simms is an experienced technology leader, currently serving as Director of Engineering at FullStory, who
+            Tim Simms is an experienced technology leader, most recently having served as Director of Engineering at FullStory, who
             has spent more than two decades in technical leadership roles. Prior to joining FullStory, he led teams at tech companies of
             all stages, including SparkPost, Apkudo, CentreTEK, and others.
             </p>
