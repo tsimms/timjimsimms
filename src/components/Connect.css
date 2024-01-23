@@ -28,10 +28,11 @@ img[alt=LinkedIn] {
     text-align: center;
     outline: none;
     text-decoration: none !important;
-    color: #ffffff !important;
+    color: #ccc !important;
     height: 32px;
     border-radius: 16px;
     background-color: #0A66C2;
     font-family: "SF Pro Text", Helvetica, sans-serif;
+    font-weight: bold;
   }
   

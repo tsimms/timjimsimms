@@ -16,6 +16,9 @@ const Projects = () => {
                 <iframe title="Tim Simms Resume" src="/TimSimms_Resume.pdf#page=1" height={650}></iframe>
                 <iframe title="Tim Simms Resume" src="/TimSimms_Resume.pdf#page=2" height={650}></iframe>
             </div>
+            <div id="resume-link">
+                <a href="/TimSimms_Resume.pdf">Download Resume</a>
+            </div>
         </div>
     )
 

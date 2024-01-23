@@ -9,6 +9,15 @@
 
 #resume-pages {
     width: 100%;
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+}
+
+#resume-link {
+    @media screen and (min-width: 767px) {
+        display: block;
+    }
 }
 
 iframe {

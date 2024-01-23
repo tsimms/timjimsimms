@@ -23,6 +23,10 @@
   font-size: calc(10px + 2vmin);
   color: white;
   font-family: 'Courier New', Courier, monospace;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 }
 
 .App-Bio {
